@@ -47,7 +47,7 @@ def get_weather():
         return
 
     # Make the API request
-    api_key = "5dd905e2f520abc56deb020afa4d0b50"  # Replace with your actual API key
+    api_key = ""  # Replace with your actual API key
     response = requests.get(f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}")
 
     # Check for valid response
